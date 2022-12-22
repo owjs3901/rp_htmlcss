@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <style>
+        div {
+            /* 150px 정사각형 */
+            width: 150px;
+            height: 150px;
+
+            /* 속 여백 16px */
+            padding: 16px;
+
+            /* 배경색 */
+            background-color: aquamarine;
+
+            /* 박스 사이징 */
+            box-sizing: border-box;
+        }
+
+        h1 {
+            /* 150px 정사각형 */
+            width: 150px;
+            height: 150px;
+
+            /* 속 여백 16px */
+            padding: 16px;
+
+            /* 배경색 */
+            background-color: beige;
+
+            /* <div> 태그와 동일한 텍스트 스타일 */
+            font-size: 16px;
+            font-weight: normal;
+        }
+    </style>
+
+    <div>
+        박스 사이징 border-box <br>
+        padding까지 폭과 높이에 포함
+    </div>
+    <h1>
+        박스 사이징 기본값(content-box) <br>
+        padding이 폭과 높이에 합산
+    </h1>
+</body>
+
+</html>

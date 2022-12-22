@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <style>
+        /* 정사각형 */
+        .box {
+            width: 150px;
+            height: 150px;
+            border: 2px solid blue;
+        }
+
+        /* box 클래스 이후에 오는 box 클래스 */
+        .box~.box {
+            border-top: none;
+        }
+    </style>
+
+    <div class="box">
+        첫 번째 상자
+    </div>
+    <div class="box">
+        두 번째 상자
+    </div>
+    <div class="box">
+        세 번째 상자
+    </div>
+</body>
+
+</html>

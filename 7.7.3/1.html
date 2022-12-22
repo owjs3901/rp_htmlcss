@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <style>
+        /* form-wr 클래스의 자식 중 label */
+        .form-wr>label {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        /* form-wr 클래스의 자식 중 input */
+        .form-wr>input {
+            font-size: 20px;
+        }
+
+        /* form-wr 클래스의 자식 중 span */
+        .form-wr>span {
+            color: red;
+        }
+    </style>
+
+    <div class="form-wr">
+        <label>
+            굵은 라벨
+        </label>
+        <input placeholder="부모 요소 덕에 스타일 적용">
+        <div>
+            <br>
+            <span>
+                친자식이 아니라 선택되지 못하는 구나
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>

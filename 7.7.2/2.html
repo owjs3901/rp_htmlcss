@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <style>
+        /* 정사각형 */
+        .box {
+            width: 150px;
+            height: 150px;
+            border: 2px solid blue;
+        }
+
+        /* a 클래스 바로 뒤에 오는 b 클래스 */
+        .a+.b {
+            background-color: red;
+        }
+    </style>
+
+    <div class="a box">
+        a 클래스
+    </div>
+    <div class="b box">
+        b 클래스
+    </div>
+</body>
+
+</html>

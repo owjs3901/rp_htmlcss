@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <style>
+        /* 속성 선택자 */
+
+        /* 속성 존재 여부 확인 */
+        /* href 속성이 존재 하는가? */
+        *[href] {
+            background-color: yellow;
+            color: black;
+        }
+
+        /* 속성 일치 여부 확인 */
+        /* href 속성이 다음과 일치하는가? */
+        a[href='https://www.naver.com'] {
+            background-color: green;
+            color: white;
+        }
+
+        /* 속성 일치 여부 확인 */
+        /* href 속성이 다음과 일치하는가? */
+        a[href='https://www.google.com'] {
+            background-color: red;
+            color: white;
+        }
+    </style>
+
+    <a href="https://www.naver.com">
+        네이버 접속
+    </a>
+    <div href="">
+        난 div 태그인데?
+    </div>
+    <a href="https://www.google.com">
+        구글 접속
+    </a>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <style>
+        /* 모두 다 white-space: pre 적용 */
+        * {
+            white-space: pre;
+            overflow: hidden;
+        }
+        h1 {
+            /* 기본값, 그대로 잘린다. */
+            text-overflow: clip;
+        }
+        h2 {
+            /* ... 으로 대체 */
+            text-overflow: ellipsis;
+        }
+    </style>
+     
+    <h1>
+        넘치며 잘리는 텍         스         트
+    </h1>
+    <h2>
+        넘치며 잘리는 텍         스         트
+    </h2>    
+</body>
+
+</html>

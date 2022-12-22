@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <style>
+        /* 기본형 PC */
+        .responsive-bg {
+            background-color: red;
+        }
+
+        /* 1024px 이하 (태블릿) */
+        @media screen and (max-width: 1024px) {
+            .responsive-bg {
+                background-color: yellow;
+            }
+        }
+
+        /* 768px 이하 (휴대폰 가로, 소형 태블릿) */
+        @media screen and (max-width: 768px) {
+            .responsive-bg {
+                background-color: purple;
+            }
+        }
+
+        /* 480px 이하 (휴대폰) */
+        @media screen and (max-width: 480px) {
+            .responsive-bg {
+                background-color: aqua;
+            }
+        }
+    </style>
+
+    <div class="responsive-bg">
+        반응형 요소
+    </div>
+</body>
+
+</html>

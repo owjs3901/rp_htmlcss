@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <style>
+        .responsive-bg {
+            background-color: red;
+        }
+
+        /* 300px 이하 */
+        @media screen and (max-width: 300px) {
+            .responsive-bg {
+                background-color: yellow;
+            }
+        }
+
+        /* 400px 이상 */
+        @media screen and (min-width: 400px) {
+            .responsive-bg {
+                background-color: blue;
+            }
+        }
+    </style>
+
+    <div class="responsive-bg">
+        반응형 요소
+    </div>
+</body>
+
+</html>
